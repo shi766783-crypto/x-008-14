@@ -40,6 +40,7 @@ import IconChart from './IconChart.vue'
 import DashboardView from '../views/DashboardView.vue'
 import AccountsView from '../views/AccountsView.vue'
 import TransactionsView from '../views/TransactionsView.vue'
+import CalendarView from '../views/CalendarView.vue'
 import BudgetView from '../views/BudgetView.vue'
 import SavingsGoalsView from '../views/SavingsGoalsView.vue'
 import ChallengesView from '../views/ChallengesView.vue'
@@ -50,6 +51,7 @@ const NAV = [
   { key: 'dashboard', label: '财务看板', icon: 'chart' },
   { key: 'accounts', label: '我的账户', icon: 'account' },
   { key: 'transactions', label: '记账', icon: 'add' },
+  { key: 'calendar', label: '日历', icon: 'calendar' },
   { key: 'budget', label: '月度预算', icon: 'target' },
   { key: 'goals', label: '储蓄目标', icon: 'list' },
   { key: 'challenges', label: '记账挑战', icon: 'trophy' },
@@ -61,6 +63,7 @@ const VIEWS = {
   dashboard: DashboardView,
   accounts: AccountsView,
   transactions: TransactionsView,
+  calendar: CalendarView,
   budget: BudgetView,
   goals: SavingsGoalsView,
   challenges: ChallengesView,
